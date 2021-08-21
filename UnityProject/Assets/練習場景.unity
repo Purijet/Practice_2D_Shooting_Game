@@ -479,10 +479,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad78aaa5e4892c34c960add0a108dafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
-  textHp: {fileID: 235324645}
-  aud: {fileID: 535656286}
-  soundHit: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
+  Hp: 10
+  TextHp: {fileID: 235324645}
+  Aud: {fileID: 535656286}
+  SoundHit: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
 --- !u!82 &535656286
 AudioSource:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1201,10 +1201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71fb02abe8e8af64db74644224e11084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4188934032714802657, guid: 8058be627f9654545a83c5749037a195, type: 3}
-  point: {fileID: 1212127335}
-  aud: {fileID: 2129298586}
-  soundShoot: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
+  Bullet: {fileID: 4188934032714802657, guid: 8058be627f9654545a83c5749037a195, type: 3}
+  Point: {fileID: 1212127335}
+  Aud: {fileID: 2129298586}
+  SoundShoot: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
   speed: 30
 --- !u!82 &2129298586
 AudioSource:
@@ -1216,7 +1216,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
